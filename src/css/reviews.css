@@ -1,4 +1,5 @@
 .reviews {
+  padding: 80px 0;
 }
 .reviews-title {
   font-family: 'Inter Tight', sans-serif;
@@ -8,6 +9,8 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #141414;
+  text-align: left;
+  margin-bottom: 20px;
 }
 
 .reviews-title-part {
@@ -19,14 +22,32 @@
   font-size: 14px;
   line-height: 1.42857;
   color: #141414;
+  margin-bottom: 40px;
 }
-.reviews-container {
+.reviews-list {
+}
+.reviews-item:nth-child(2),
+.reviews-item:nth-child(3) {
+  display: none;
+}
+
+.reviews-item {
   border: 1px solid #d4bfc4;
   border-radius: 24px;
   padding: 20px 16px;
-  width: 100%;
+  max-width: 335px;
   height: 228px;
   background: #fbfbfb;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+.reviews-images {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-bottom: 24px;
 }
 .reviews-subtitle {
   font-family: 'Inter Tight', sans-serif;
@@ -37,6 +58,7 @@
   text-transform: uppercase;
   text-align: center;
   color: #141414;
+  margin-bottom: 8px;
 }
 .reviews-subtitle-text {
   font-family: 'Inter Tight', sans-serif;
