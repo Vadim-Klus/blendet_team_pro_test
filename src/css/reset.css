@@ -9,7 +9,7 @@ p {
 }
 
 p:last-child {
-  margin-bottom: 0;
+
 }
 
 ul {
@@ -28,7 +28,5 @@ button {
 }
 
 img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+ 
 }
