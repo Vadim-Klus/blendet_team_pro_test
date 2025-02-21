@@ -39,6 +39,12 @@
   align-content: center;
   flex-direction: column;
 }
+
+.reviews-item:nth-child(2),
+.reviews-item:nth-child(3) {
+  display: none;
+}
+
 .reviews-images {
   width: 56px;
   height: 56px;
